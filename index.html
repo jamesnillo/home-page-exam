@@ -1,0 +1,177 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<title>s80 - App Building Static </title>
+
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+		<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@600&family=Roboto:wght@400&display=swap" rel="stylesheet">
+
+		<link rel="stylesheet" type="text/css" href="./index.css">
+
+	</head>
+	<body>
+		<nav class="navbar navbar-expand-lg bg-body-tertiary">
+		    <div class="container-fluid">
+		        <a class="navbar-brand text-dark ms-3" href="#hero">Zuitt Shop</a>
+		        <!-- Navbar Toggler Button for Mobile -->
+		        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+		            <span class="navbar-toggler-icon"></span>  <!-- This is the hamburger icon -->
+		        </button>
+		        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+		            <ul class="navbar-nav ms-auto mb-2 mb-lg-0 pe-3">
+		                <li class="nav-item">
+		                    <a class="nav-link active text-dark" aria-current="page" href="#hero">Home</a>
+		                </li>
+		                <li class="nav-item">
+		                    <a class="nav-link text-dark" href="#featured-products">Features</a>
+		                </li>
+		                <li class="nav-item">
+		                    <a class="nav-link text-dark" href="#product">Products</a>
+		                </li>
+		                <li class="nav-item">
+		                    <a class="nav-link text-dark" href="#aboutUs">About Us</a>
+		                </li>
+		            </ul>
+		        </div>
+		    </div>
+		</nav>
+
+
+	<section id="hero">
+		<h1 id="discover">Discover the Best Deals at Zuitt Shop</h1>
+		<h5 id="everything">Everything You Need, at Prices You'll Love</h5>
+		<button id="shopNow">Shop Now</button>
+	</section>
+
+	<section class="container-fluid" id="carousel1">
+	  <div class="row justify-content-center align-items-center" style="height: 100vh;">
+	    <!-- Carousel Section -->
+	    <div class="col-lg-6 col-md-8 col-12 d-flex justify-content-center align-items-center">
+	      <div id="carouselExampleControls" class="carousel slide" data-bs-ride="carousel">
+	        <div class="carousel-inner">
+	          <div class="carousel-item active">
+	            <img src="./images/computer.jpg" class="d-block w-100" alt="Image 1">
+	          </div>
+	          <div class="carousel-item">
+	            <img src="./images/makeup.jpg" class="d-block w-100" alt="Image 2">
+	          </div>
+	          <div class="carousel-item">
+	            <img src="./images/skincare.jpg" class="d-block w-100" alt="Image 3">
+	          </div>
+	        </div>
+	        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="prev">
+	          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+	          <span class="visually-hidden">Previous</span>
+	        </button>
+	        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls" data-bs-slide="next">
+	          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+	          <span class="visually-hidden">Next</span>
+	        </button>
+	      </div>
+	    </div>
+
+	    <!-- Text Section -->
+	    <div class="col-lg-6 col-md-8 col-12 d-flex justify-content-center align-items-center text-center text-lg-start" id="product">
+	      <div>
+	        <h1 class="display-4" id="why">Why Choose Us?</h1>
+	        <h5 id="discover1">Experience premium quality and unmatched service at Zuitt Shop.</h5>
+	      </div>
+	    </div>
+	  </div>
+	</section>
+
+	<section id="featured-products" class="container my-5">
+	  <h2 class="text-center mb-4">Featured Products</h2>
+	  <div class="row justify-content-center">
+
+	    <div class="col-lg-4 col-md-4 col-sm-12">
+	      <div class="card shadow-lg border-0">
+	        <img src="./images/product1.jpg" class="card-img-top" alt="Product 1">
+	        <div class="card-body d-flex flex-column">
+	          <h5 class="card-title">PlayStation One</h5>
+	          <p class="card-text">The PlayStation (PS1) is a home video game console developed by Sony. It had a 32-bit processor and used compact discs (CDs) for games.</p>
+	          <p class="card-text mb-3"><strong>₱13,000.00</strong></p>
+	          <a href="#" class="btn btn-primary mt-auto">View Details</a>
+	        </div>
+	      </div>
+	    </div>
+
+	    <div class="col-lg-4 col-md-4 col-sm-12">
+	      <div class="card shadow-lg border-0">
+	        <img src="./images/product2.jpg" class="card-img-top" alt="Product 2">
+	        <div class="card-body d-flex flex-column">
+	          <h5 class="card-title">Charlotte Tilbury Hollywood Flawless Filter</h5>
+	          <p class="card-text">A popular cosmetic product, this filter provides a radiant finish to the skin with medium-to-full coverage, ideal for under-eye areas and blemishes.</p>
+	          <p class="card-text mb-3" ><strong>₱1,200.00</strong></p>
+	          <a href="#" class="btn btn-primary mt-auto">View Details</a>
+	        </div>
+	      </div>
+	    </div>
+
+	    <div class="col-lg-4 col-md-4 col-sm-12">
+	      <div class="card shadow-lg border-0">
+	        <img src="./images/product3.jpg" class="card-img-top" alt="Product 3">
+	        <div class="card-body d-flex flex-column">
+	          <h5 class="card-title">Drunk Elephant Bora Barrier Repair Cream</h5>
+	          <p class="card-text">This hydrating cream is perfect for dry and sensitive skin. It helps soothe irritation and restores moisture, ideal for skin rejuvenation.</p>
+	          <p class="card-text mb-3"><strong>₱999.00</strong></p>
+	          <a href="#" class="btn btn-primary mt-auto">View Details</a>
+	        </div>
+	      </div>
+	    </div>
+
+	  </div>
+	</section>
+
+	<section id="aboutUs" class="container my-5">
+  <h2 class="text-center mb-4">About Us</h2>
+  <div class="row">
+    <div class="col-lg-6 col-md-6 col-12 mb-4">
+      <div class="about-card">
+        <h3>Who We Are</h3>
+        <p>At Zuitt Shop, we are committed to providing you with the best shopping experience. Our mission is to offer a wide selection of high-quality products at prices you'll love, all while ensuring customer satisfaction with each purchase.</p>
+      </div>
+    </div>
+    <div class="col-lg-6 col-md-6 col-12 mb-4">
+      <div class="about-card">
+        <h3>Our Vision</h3>
+        <p>We aim to become a leading online store that offers premium products in various categories, from electronics to beauty and skincare. Our vision is to create an enjoyable shopping experience that is seamless, reliable, and affordable for everyone.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+	<section id="contactUs" class="container my-5">
+	  <h2 class="text-center mb-4">Contact Us</h2>
+	  <div class="row justify-content-center">
+	    <div class="col-lg-6 col-md-6 col-12 text-center">
+	      <a href="https://about.gitlab.com/" target="_blank">
+	        <img src="./images/gitlab.png" alt="GitLab" class="social-icon">
+	      </a>
+	      <a href="https://www.linkedin.com/feed/" target="_blank">
+	        <img src="./images/linkedin.png" alt="LinkedIn" class="social-icon">
+	      </a>
+	      <a href="https://www.facebook.com/james.nillo/" target="_blank">
+	        <img src="./images/facebook.png" alt="Facebook" class="social-icon">
+	      </a>
+	      <a href="https://github.com" target="_blank">
+	        <img src="./images/github.png" alt="GitHub" class="social-icon">
+	      </a>
+	    </div>
+	  </div>
+	</section>
+
+
+	<footer class="bg-dark text-white text-center py-4">
+	  <p class="mb-0">&copy; 2024 Zuitt Shop: All rights reserved. For Educational Purposes Only</p>
+	</footer>
+
+		<!-- Bootstrap Script -->
+			<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+	</body>
+</html>
